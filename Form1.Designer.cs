@@ -41,7 +41,7 @@
             // btnConverter
             // 
             this.btnConverter.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.btnConverter.Location = new System.Drawing.Point(125, 211);
+            this.btnConverter.Location = new System.Drawing.Point(90, 211);
             this.btnConverter.Name = "btnConverter";
             this.btnConverter.Size = new System.Drawing.Size(76, 41);
             this.btnConverter.TabIndex = 0;
@@ -52,7 +52,7 @@
             // pictureBox1
             // 
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
-            this.pictureBox1.Location = new System.Drawing.Point(112, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(78, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(100, 99);
             this.pictureBox1.TabIndex = 1;
@@ -60,7 +60,7 @@
             // 
             // txtValorReal
             // 
-            this.txtValorReal.Location = new System.Drawing.Point(112, 176);
+            this.txtValorReal.Location = new System.Drawing.Point(78, 176);
             this.txtValorReal.Name = "txtValorReal";
             this.txtValorReal.Size = new System.Drawing.Size(100, 20);
             this.txtValorReal.TabIndex = 2;
@@ -69,7 +69,7 @@
             // 
             this.lblResultado.AutoSize = true;
             this.lblResultado.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lblResultado.Location = new System.Drawing.Point(134, 300);
+            this.lblResultado.Location = new System.Drawing.Point(103, 300);
             this.lblResultado.MinimumSize = new System.Drawing.Size(50, 10);
             this.lblResultado.Name = "lblResultado";
             this.lblResultado.Size = new System.Drawing.Size(50, 15);
@@ -78,7 +78,7 @@
             // lblValorReal
             // 
             this.lblValorReal.AutoSize = true;
-            this.lblValorReal.Location = new System.Drawing.Point(109, 143);
+            this.lblValorReal.Location = new System.Drawing.Point(77, 143);
             this.lblValorReal.Name = "lblValorReal";
             this.lblValorReal.Size = new System.Drawing.Size(103, 13);
             this.lblValorReal.TabIndex = 4;
@@ -87,7 +87,7 @@
             // lblValorDolar
             // 
             this.lblValorDolar.AutoSize = true;
-            this.lblValorDolar.Location = new System.Drawing.Point(131, 274);
+            this.lblValorDolar.Location = new System.Drawing.Point(100, 274);
             this.lblValorDolar.Name = "lblValorDolar";
             this.lblValorDolar.Size = new System.Drawing.Size(57, 13);
             this.lblValorDolar.TabIndex = 5;
@@ -97,7 +97,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(362, 450);
+            this.ClientSize = new System.Drawing.Size(276, 359);
             this.Controls.Add(this.lblValorDolar);
             this.Controls.Add(this.lblValorReal);
             this.Controls.Add(this.lblResultado);

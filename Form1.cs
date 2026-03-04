@@ -12,11 +12,17 @@ namespace conversorMoedas
 {
     public partial class Form1 : Form
     {
-        float valorReal, valorDolar, resultado;
+        float valorReal;
+        double resultado;
 
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -26,9 +32,9 @@ namespace conversorMoedas
             //saber o valor do dólar = R$5,27  $1 = R$5,27 REGRA DE TRÊS
 
             //converter de real para dolar
-            resultado = valorReal / valorDolar;
+            resultado = valorReal / 5.27;
             //mostrar resultado na label resultado
-            lblResultado.Text = resultado.ToString();
+            lblResultado.Text = resultado.ToString("F2");
         }
     }
 }
